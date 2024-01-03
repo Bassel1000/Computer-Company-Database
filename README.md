@@ -1,6 +1,8 @@
 # Computer-Company-Database
 This project is about how to make a sample computer company database we took (Asus as an example for our dataset)
 # Introduction
+We got inspiration for this project from our personal interest and curiosity in Technology and especially computer hardware. We took **ASUS** as our role model considering it one of the leading companies in the field. <br>
+<br>
 This project will contain : <br>
 1- ER Model <br>
 2- Relational Model <br>
@@ -20,6 +22,38 @@ Note: ER-Model , Relational Model , Tables are made with [Lucid Chart](https://w
  <br>
 **Here is our full design** ![image](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/602cb47f-7164-4c5c-80c2-976a498ac62d) 
 **Contents of the design:** <br>
-**Entities:** Customer, Order_Details, Product, Monitors, Laptops, Desktops, Department, Employee, Payment <br>
+ <br>
+**Entities:** **Customer**, **Order_Details**, **Product:** it is enhanced into (**Monitors**, **Laptops**, **Desktops**) with role name category, **Department**, **Employee**, **Payment** <br>
+ <br>
+**Attributes:** <br>
+<br>
+For **Customer** entity: Primary Key(**Username**), Composite attribute (**Name**) split into **First_Name** and **Last_Name**, Phone, Email_Address <br>
+<br>
+For **Order_Details** entity: Primary key(**Order_no**), **O_Date**, **O_Status** <br> 
+<br>
+For **Product** entity: Primary Key(**P_ID**), **Price**, **P_Name** <br>
+<br>
+For **Monitors** entitty: **Refresh_Rate**, **Resolution**, **Screen_Size** <br>
+<br>
+For **Laptops** entity: **Size**, **Weight**, **Battery_Life** <br>
+<br>
+For **Desktops** entity: **Hard_Disk**, **RAM**, Composite attribute(**Processing_Unit**) split into **CPU** and **GPU** <br>
+<br>
+For **Depatment** entity: **Name**, Primary key(**Dnumber**), **Mgr_ID** <br>
+<br>
+For **Employee** entity: Primary key(**ID**), Composite attribute(**Name**) split into **First_Name** and **Last_Name**, **Salary**, **Dnumber** <br>
+<br>
+For **Payment** entity: Primarykey(**Transaction_no**), **Installment**, **P_Type** <br>
+<br>
+**Relationship and Cadinality:** <br>
+<br>
+1- **Places** one-to-many between **Customer** and **Order_Details** <br>
+2- **Pays** one-to-one between **Payment**, **Customer** and **Order_Details** <br>
+3- **O_Contains** many-to-many between **Order_Details** and **Product** <br>
+4- **Develops** many-to-many between **Department** and **Product** <br>
+5- **Works_in** many-to-one between **Employee** and **Department** <br>
+6- **Manages** one-to-one between **Employee** and **Department** <br>
+
+
 
 
