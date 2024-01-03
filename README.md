@@ -53,6 +53,40 @@ For **Payment** entity: Primarykey(**Transaction_no**), **Installment**, **P_Typ
 4- **Develops** many-to-many between **Department** and **Product** <br>
 5- **Works_in** many-to-one between **Employee** and **Department** <br>
 6- **Manages** one-to-one between **Employee** and **Department** <br>
+## 3-Tables <br>
+Dataset in tables are AI generated and doesn't represent real data <br>
+**Customer Table:** <br>
+![Screenshot 2024-01-03 220223](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/9293fe80-8456-470e-b9c2-50daf394829a) <br>
+**Order_Details Table:** <br>
+![Screenshot 2024-01-03 220303](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/6231a06b-590d-411f-a90b-8321e2d1b860) <br>
+**Product Table:** <br>
+![Product Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/18d89703-36da-4f01-9f2c-17b43d59cb6d) <br>
+**Department Table:** <br>
+![Department Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/5684b5a9-e4fe-4ad4-8e6a-0e34102f8731) <br>
+**Employee Table:** <br>
+![Employee Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/75fe1a4b-2ae8-4510-b02d-e4cf30333ca5) <br>
+**Laptop Table:** <br>
+![Laptop Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/afde2d5d-ca8e-43f3-84fe-a4e12edbd370) <br>
+**Monitor Table:** <br>
+![Monitor Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/f5f82c69-53d8-419d-aae0-be23c991bb7c) <br>
+**Desktop Table:** <br>
+![Desktop Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/c117d17c-8b90-4e7b-8af6-488b8be189ff) <br>
+**Payment Table:** <br>
+![Payment Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/9ece4efe-7f35-48e3-a20c-9f26a4371c08) <br>
+**O_Contains Table:** <br>
+![O_Contains Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/bfd5ea35-aa6b-4b8a-874d-8d3850ecf936) <br>
+**Pays Table:** <br>
+![Pays Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/24fcfd68-13e6-493a-aff8-3b21c41cdaf4) <br>
+**Develops Table:** <br>
+![Develops Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/14c2cea8-eb1e-41b0-91ab-c3b07f1508fa) <br>
+
+
+
+
+
+
+
+
 
 
 
