@@ -79,6 +79,56 @@ Dataset in tables are AI generated and doesn't represent real data <br>
 ![Pays Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/24fcfd68-13e6-493a-aff8-3b21c41cdaf4) <br>
 **Develops Table:** <br>
 ![Develops Table](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/14c2cea8-eb1e-41b0-91ab-c3b07f1508fa) <br>
+## 4- Relational Algebra <br>
+
+**Purpose of Relational Algebra:** <br>
+<br>
+A formal language for operating on tables and extracting desired information. <br>
+<br>
+Provides a foundation for understanding query languages like SQL. <br>
+
+**Building Blocks:** <br>
+
+**Basic Operations:** <br>
+<br>
+Projection (π): Selects specific columns from a table. <br>
+<br>
+Selection (σ): Restricts rows based on conditions. <br>
+<br>
+Union (∪): Combines rows from two tables, removing duplicates. <br>
+<br>
+Difference (-): Subtracts rows from one table that are also in another. <br>
+<br>
+Cartesian Product (×): Combines every row from one table with every row from another. <br>
+<br>
+**Join Operations:** <br>
+<br>
+Natural Join (⋈): Combines rows from two tables based on common attributes. <br>
+<br>
+Theta Join (⋈θ): Combines rows based on a specified condition. <br>
+<br>
+Outer Joins (⟕, ⟖): Include unmatched rows from one or both tables. <br>
+<br>
+**Query Construction:** <br>
+<br>
+Combine operations using parentheses to specify order of execution. <br>
+<br>
+**Importance:** <br>
+<br>
+Understanding relational algebra is essential for: <br>
+<br>
+Optimizing query performance. <br>
+<br>
+Troubleshooting query errors. <br>
+<br>
+Designing complex database applications. <br>
+**Here is the queries we made:**
+![Relational_Algebra_1](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/5e968a10-17ca-4558-902d-1703348226dd) <br>
+![Relational_Algebra_2](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/da29fc57-3ded-4a1e-9b3a-c70873b9f944) <br>
+![Relational_Algebra_3](https://github.com/Bassel1000/Computer-Company-Database/assets/94708469/f1aec2ac-ffb0-4b4a-8273-be3ef5c5aa09) <br>
+# 5-SQL <br>
+You will find the SQL code in **Project.sql** file it has all tables created and Data. <br>
+It contains all relational algebra queries answers wriiten in SQL.
 
 
 
