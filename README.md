@@ -9,7 +9,8 @@ This project will contain : <br>
 3- Tables <br>
 4- Relational Alegbra <br>
 5- SQL <br>
-Note: ER-Model , Relational Model , Tables are made with [Lucid Chart](https://www.lucidchart.com/pages/landing?utm_source=bing&utm_medium=cpc&utm_campaign=_chart_en_tier3_mixed_search_brand_exact_&km_CPC_CampaignId=369684520&km_CPC_AdGroupID=1225955648609265&km_CPC_Keyword=lucidchart&km_CPC_MatchType=e&km_CPC_ExtensionID={extensionid}&km_CPC_Network=o&km_CPC_AdPosition=&km_CPC_Creative=&km_CPC_TargetID=kwd-76622376819042:aud-813470443:loc-187&km_CPC_Country=143029&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&mkt_query=lucidchart&msclkid=869fa0b8ce3e185424dac52db7f964c6)
+Note: ER-Model , Relational Model , Tables are made with [Lucid Chart](https://www.lucidchart.com/pages/landing?utm_source=bing&utm_medium=cpc&utm_campaign=_chart_en_tier3_mixed_search_brand_exact_&km_CPC_CampaignId=369684520&km_CPC_AdGroupID=1225955648609265&km_CPC_Keyword=lucidchart&km_CPC_MatchType=e&km_CPC_ExtensionID={extensionid}&km_CPC_Network=o&km_CPC_AdPosition=&km_CPC_Creative=&km_CPC_TargetID=kwd-76622376819042:aud-813470443:loc-187&km_CPC_Country=143029&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&mkt_query=lucidchart&msclkid=869fa0b8ce3e185424dac52db7f964c6) <br>
+SQL was made on [MySQL](https://www.mysql.com/)
 ## 1-ER Model
 ### Designing ER-Model 
 **Entity**: An entity is an object or a thing that can be identified and distinguished from others. For example, a computer, a customer, or a product. An entity is represented by a rectangle with the entity name inside. <br>
