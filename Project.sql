@@ -365,6 +365,7 @@ show tables;
 ---------------------------------------------
 --- Queries
 ---------------------------------------------
+
 /*Find the names and salaries of all employees who work in the department of sales and have a salary greater than 50000. */
 select First_name, Last_name ,Salary from Employee where Dnumber ='3' and Salary > 50000;
 
