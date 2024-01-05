@@ -42,6 +42,7 @@ Username varchar(50),
 foreign key (Username) references Customer(Username),
 Primary key (Order_no)
 );
+
 INSERT INTO Order_Details (Order_no, O_Date, O_Status, Username, Total_Paid)
 VALUES (1, '2023-01-25', 'Delivered', 'SparkyLion', 549.99),
        (2, '2023-01-27', 'Delivered', 'Cortana', 399.99),
@@ -101,6 +102,7 @@ Dnumber int not null,
 Mgr_ID int,
 primary key (Dnumber)
 );
+
 INSERT INTO Department (D_Name, Dnumber, Mgr_ID)
 VALUES ('Research and Development', 1, 96325),
        ('Engineering and Design', 2, 74125),
@@ -145,6 +147,7 @@ Dnumber int not null,
 foreign key(P_ID) references Product(P_ID),
 foreign key(Dnumber) references Department(Dnumber)
 );
+
 INSERT INTO Develops (P_ID, Dnumber)
 VALUES (2941, 2),
        (2941, 1),
@@ -210,6 +213,7 @@ D_CPU varchar(50),
 GPU varchar(100),
 foreign key(P_ID) references Product(P_ID)
 );
+
 INSERT INTO Desktops (P_ID, RAM, Hard_Disk, D_CPU, GPU)
 VALUES (6086, '32GB DDR4', '1TB HDD + 512GB PCIe SSD', 'AMD Ryzen 7 7800X', 'NVIDIA GeForce RTX 3070 Ti 8GB'),
        (8888, '64GB DDR4', '2TB PCIe SSD', 'Intel Core i9-13900K', 'NVIDIA GeForce RTX A5000 16GB'),
@@ -276,6 +280,7 @@ foreign key(Transaction_no) references Payment(Transaction_no),
 foreign key(Username) references Customer(Username),
 foreign key(Order_no) references Order_Details(Order_no)
 );
+
 INSERT INTO Pays (Transaction_no, Username, Order_no)
 VALUES (15468923, 'SparkyLion', 1),
        (78954126, 'Cortana', 2),
@@ -305,6 +310,7 @@ P_ID int not null,
 foreign key(Order_no) references Order_Details(Order_no),
 foreign key(P_ID) references Product(P_ID)
 );
+
 INSERT INTO O_Contains (P_ID, Order_no)
 VALUES (2941, 1),
        (2941, 15),
@@ -355,6 +361,10 @@ VALUES (2941, 1),
 
 show tables;
 
+
+---------------------------------------------
+--- Queries
+---------------------------------------------
 /*Find the names and salaries of all employees who work in the department of sales and have a salary greater than 50000. */
 select First_name, Last_name ,Salary from Employee where Dnumber ='3' and Salary > 50000;
 
