@@ -10,6 +10,7 @@ This project will contain : <br>
 4- Relational Alegbra <br>
 5- SQL <br>
 Note: ER-Model , Relational Model , Tables are made with [Lucid Chart](https://www.lucidchart.com/pages/landing?utm_source=bing&utm_medium=cpc&utm_campaign=_chart_en_tier3_mixed_search_brand_exact_&km_CPC_CampaignId=369684520&km_CPC_AdGroupID=1225955648609265&km_CPC_Keyword=lucidchart&km_CPC_MatchType=e&km_CPC_ExtensionID={extensionid}&km_CPC_Network=o&km_CPC_AdPosition=&km_CPC_Creative=&km_CPC_TargetID=kwd-76622376819042:aud-813470443:loc-187&km_CPC_Country=143029&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&mkt_query=lucidchart&msclkid=869fa0b8ce3e185424dac52db7f964c6) <br>
+Relational Schema was made with [DBDiagram](https://dbdiagram.io/home/) <br>
 SQL was made on [MySQL](https://www.mysql.com/)
 ## 1-ER Model
 ### Designing ER-Model 
@@ -54,6 +55,21 @@ For **Payment** entity: Primarykey(**Transaction_no**), **Installment**, **P_Typ
 4- **Develops** many-to-many between **Department** and **Product** <br>
 5- **Works_in** many-to-one between **Employee** and **Department** <br>
 6- **Manages** one-to-one between **Employee** and **Department** <br>
+## 2-Relational Schema <br>
+A **relational schema** is a logical representation of the structure and constraints of a relational database. <br>
+<br>
+It consists of a set of **relations** (or tables), each with a unique name and a list of **attributes** (or columns). <br>
+Each **attribute** has a domain, which is the set of possible values it can take. <br>
+<br>
+**Tuple** (or row): a collection of attribute values that represents a data record in a relation. <br>
+<br>
+**Key**: is a subset of attributes that uniquely identifies a tuple in a relation. <br>
+<br>
+**Primary Key**: is a chosen key for a relation. <br>
+<br>
+**Foreign Key**: is a key that refers to a primary key of another relation. <br>
+<br>
+**Here is our schema** ![image](https://github.com/Bassel1000/Computer-Company-Database/blob/main/Relational%20Schema.png)
 ## 3-Tables <br>
 Dataset in tables are AI generated and doesn't represent real data <br>
 **Customer Table:** <br>
