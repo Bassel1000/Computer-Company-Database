@@ -5,7 +5,7 @@ We got inspiration for this project from our personal interest and curiosity in 
 <br>
 This project will contain : <br>
 1- ER Model <br>
-2- Relational Model <br>
+2- Relational Schema (or Model) <br>
 3- Tables <br>
 4- Relational Alegbra <br>
 5- SQL <br>
